@@ -1,0 +1,10 @@
+### Leak goroutines in a slow way
+GET http://localhost:8080/
+
+### Leak goroutines in a slow but memory intensive way
+GET http://localhost:8080/mem
+
+### Get leaked routines status
+GET http://localhost:8080/details
+
+###

@@ -1,0 +1,7 @@
+*.exe
+crashdump/crashdump
+crashdump/core*.dmp.*
+.idea/httpRequests
+.idea/misc.xml
+.idea/workspace.xml
+trace/out.txt

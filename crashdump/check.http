@@ -1,0 +1,7 @@
+### Get our Fibbonaci number
+GET http://localhost:8080/
+
+###
+GET http://localhost:8080/crash
+
+###
