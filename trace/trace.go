@@ -53,12 +53,12 @@ func main() {
 
 	topic := "president"
 
-	// n := find(topic, docs)
+	n := find(topic, docs)
 	// n := findConcurrent(topic, docs)
 	// n := findConcurrentSem(topic, docs)
 	// n := findNumCPU(topic, docs)
 	// n := findActor(topic, docs)
-	 n := findNumCPUTasks(topic, docs)
+	// n := findNumCPUTasks(topic, docs)
 
 	log.Printf("Found %s %d times.", topic, n)
 }
