@@ -40,9 +40,6 @@ type (
 )
 
 func main() {
-	// pprof.StartCPUProfile(os.Stdout)
-	// defer pprof.StopCPUProfile()
-
 	_ = trace.Start(os.Stdout)
 	defer trace.Stop()
 
